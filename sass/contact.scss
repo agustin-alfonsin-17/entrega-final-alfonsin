@@ -169,10 +169,9 @@ $text-color: #fff;
 }
 }
 
-@media (max-width:750px){
-    .input{
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+@media (min-width: 768px){
+    .input,
+    .input-container{
+        max-width: 70%;
     }
 }

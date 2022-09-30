@@ -17,7 +17,7 @@ body{
 
 .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0,0,0,0.02)),
-    url(/assets/bcg.jpg);
+    url(../assets/bcg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
