@@ -20,12 +20,13 @@ body{
     background-size: 8px 8px;
     background-position: 0 0,4px 4px;
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 .form{
     background-color: #fff;
     margin: auto;
-    width: 100%;
+    width: 100vh;
     max-width: 400px;
     padding: 4.5em 3em;
     border-radius: 10px;
@@ -118,9 +119,15 @@ body{
     transform: scale(1);
 }
 
+/*
 @media (max-width:425px){
 
-    .form__title{
-        font-size: 1.8em;
+    body{
+        max-width: 400px;
+        display: flex;
+        flex-direction: column-reverse;
     }
+    
+
 }
+*/
