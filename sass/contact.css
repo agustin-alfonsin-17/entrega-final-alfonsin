@@ -10,18 +10,8 @@ body {
 
 /* variables */
 .contact {
-  border: 1px solid red;
-  width: 100%;
-  height: 100vh;
-  background-image: url(../images/imagen2.jpg);
-  background-size: cover;
-}
-.contact::before {
-  content: "";
-  position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.856);
 }
 .contact .container {
   position: absolute;
