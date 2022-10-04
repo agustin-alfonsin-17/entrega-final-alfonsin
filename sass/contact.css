@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #000;
+}
+
 /* variables */
 .contact {
   border: 1px solid red;
@@ -51,6 +55,7 @@
   background-color: transparent;
   border: none;
   outline: none;
+  max-width: 400px;
   color: #fff;
   font-size: 14px;
   letter-spacing: 1px;
@@ -147,9 +152,8 @@
   border: 2px solid blue;
 }
 
-@media (min-width: 768px) {
-  .input,
-.input-container {
-    max-width: 70%;
+@media (max-width: 450px) {
+  .title {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=contact.css.map */

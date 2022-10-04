@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000;
+}
+
 /* variables */
 $contact-font: sans-serif;
 $contact-color: #fff3;
@@ -58,6 +62,7 @@ $text-color: #fff;
         background-color: transparent;
         border: none;
         outline: none;
+        max-width: 400px;
         color: $text-color;
         font-size: 14px;
         letter-spacing: 1px;
@@ -169,9 +174,8 @@ $text-color: #fff;
 }
 }
 
-@media (min-width: 768px){
-    .input,
-    .input-container{
-        max-width: 70%;
+@media (max-width:450px){
+    .title{
+        font-size: 15px;
     }
 }
