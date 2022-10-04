@@ -35,3 +35,14 @@ img{
     height: 320px;
     width: 300px;
 }
+@media (max-width:500px){
+    .title{
+        font-size: 2rem;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+    .images{
+        width: 100%;
+    }
+}
